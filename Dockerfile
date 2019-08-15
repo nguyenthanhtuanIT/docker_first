@@ -18,7 +18,7 @@ RUN set -x \
 RUN apt-get update \
     && apt-get install -y nginx
 
-RUN apt-get install php7.2
+RUN apt-get install -y php7.2
 
 COPY start.sh /venv
 
